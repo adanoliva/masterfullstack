@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./error.component.css']
 })
 export class ErrorComponent implements OnInit {
-  public page_title: string;
-  constructor() {
-    this.page_title="Página de ERROR";
-   }
+	public page_title: string;
 
-  ngOnInit(): void {
-  }
+	constructor(){
+		this.page_title = 'Página no encontrada';
+	}
+
+	ngOnInit() {
+	}
 
 }
